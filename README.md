@@ -13,5 +13,12 @@ GLEW
 
 ## Installation
 
-After setting up the libraries simply run make in the project root directory and an executable will be created called app.
+After setting up the libraries simply make an out of source build by
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+ This will create an executable called app.
 
